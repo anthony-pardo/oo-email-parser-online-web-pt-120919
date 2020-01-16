@@ -9,7 +9,7 @@ class EmailAddressParser
   end
   
   def parse 
-    @emails.split(/[, ]/).uniq.delete("")
+    @emails.split(/[, ]/).uniq
     @emails
   end
 end
